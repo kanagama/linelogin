@@ -1,0 +1,31 @@
+{
+    "name": "kanagama/linelogin",
+    "description": "line login.",
+    "keywords": ["line", "login", "kanagama"],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "~6.0|~5.0|~4.0",
+        "ext-mbstring": "*"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Kanagama\\LineLogin\\": "src"
+        }
+    },
+    "homepage": "https://github.com/kanagama/",
+    "authors": [
+        {
+            "name": "k-nagama",
+            "email": "k.nagama0632@gmail.com",
+            "homepage": "https://github.com/kanagama",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/kanagama/linelogin/",
+        "issues": "https://github.com/kanagama/linelogin/issue/"
+    }
+}
